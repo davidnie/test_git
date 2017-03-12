@@ -1,0 +1,1205 @@
+# 01 Feb 2012 10:23 PM
+#
+CNSA_NET_TYPE_PHYSICAL_PARAMS {
+    constr_area = *
+    net_type = *
+    layers = *
+    min_line_width = 0.000000
+    min_neck_width = 0.000000
+    max_line_length = 0.000000
+}
+
+NET_ELECTRICAL_PARAMS {
+    ecset_name = DEFAULT
+    dpair_prim_gap = 0.000000
+    dpair_line_width = 0.000000
+    dpair_neck_gap = 0.000000
+    dpair_neck_width = 0.000000
+    dpair_coupled_tol_min = 0.000000
+    dpair_coupled_tol_pl = 0.000000
+    dpair_minimum_spacing = 0.000000
+    dpair_gather_control = 0.000000
+    dpair_max_uncoupled_len = 0.000000
+    dpair_phase_control = 0.000000
+    dpair_phase_tolerance_min = 0.000000
+    dpair_phase_tolerance_pl = 0.000000
+}
+
+NET_ELECTRICAL_PARAMS {
+    ecset_name = DIFF-PAIR
+    dpair_prim_gap = 0.000000
+    dpair_line_width = 0.000000
+    dpair_neck_gap = 0.000000
+    dpair_neck_width = 0.000000
+    dpair_coupled_tol_min = 0.000000
+    dpair_coupled_tol_pl = 0.000000
+    dpair_minimum_spacing = 0.000000
+    dpair_gather_control = 0.000000
+    dpair_max_uncoupled_len = 0.000000
+    dpair_phase_control = 0.000000
+    dpair_phase_tolerance_min = 0.010000
+    dpair_phase_tolerance_pl = 0.010000
+}
+
+NET_ELECTRICAL_PARAMS {
+    ecset_name = ANALOG
+    dpair_prim_gap = 0.000000
+    dpair_line_width = 0.000000
+    dpair_neck_gap = 0.000000
+    dpair_neck_width = 0.000000
+    dpair_coupled_tol_min = 0.000000
+    dpair_coupled_tol_pl = 0.000000
+    dpair_minimum_spacing = 0.000000
+    dpair_gather_control = 0.000000
+    dpair_max_uncoupled_len = 0.000000
+    dpair_phase_control = 0.000000
+    dpair_phase_tolerance_min = 0.000000
+    dpair_phase_tolerance_pl = 0.000000
+}
+
+NET_ELECTRICAL_PARAMS {
+    ecset_name = CLK
+    dpair_prim_gap = 0.000000
+    dpair_line_width = 0.000000
+    dpair_neck_gap = 0.000000
+    dpair_neck_width = 0.000000
+    dpair_coupled_tol_min = 0.000000
+    dpair_coupled_tol_pl = 0.000000
+    dpair_minimum_spacing = 0.000000
+    dpair_gather_control = 0.000000
+    dpair_max_uncoupled_len = 0.000000
+    dpair_phase_control = 0.000000
+    dpair_phase_tolerance_min = 0.000000
+    dpair_phase_tolerance_pl = 0.000000
+}
+
+NET_ECSET_ENTRY {
+    net_name = +3_3V_OSC_33M
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = 0R
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = 1R
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = 2R
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = 32KHZ_EXTAL
+    ecset_name = CLK
+}
+
+NET_ECSET_ENTRY {
+    net_name = 32KHZ_XTAL
+    ecset_name = CLK
+}
+
+NET_ECSET_ENTRY {
+    net_name = 3R
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = 4R
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = 5R
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = 6R
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = 7R
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = ACC_BYP
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = ACC_SA0
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = ACD0_SE16
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = ADC0_DM0
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = ADC0_DM1
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = ADC0_DP0
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = ADC0_DP1
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = ADC1_DM0
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = ADC1_DM1
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = ADC1_DP0
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = ADC1_DP1
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = ADC1_SE16
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = BRDG_TXD
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = CLKIN0
+    ecset_name = CLK
+}
+
+NET_ECSET_ENTRY {
+    net_name = CLK_50MHZ
+    ecset_name = CLK
+}
+
+NET_ECSET_ENTRY {
+    net_name = DAC0_OUT
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = DAC1_OUT
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = ELE_PS_B
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = ELE_PS_SENSE
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = ETH_COL
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = ETH_CRS
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = ETH_RXCLK
+    ecset_name = CLK
+}
+
+NET_ECSET_ENTRY {
+    net_name = ETH_RXD2
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = ETH_RXD3
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = ETH_RXER
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = ETH_TXCLK
+    ecset_name = CLK
+}
+
+NET_ECSET_ENTRY {
+    net_name = ETH_TXD0
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = ETH_TXD2
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = ETH_TXD3
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = ETH_TXER
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = EXTAL32_RTC
+    ecset_name = CLK
+}
+
+NET_ECSET_ENTRY {
+    net_name = EZP_CSR_B
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = FTM0_CH0
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = FTM0_CH1
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = FTM0_CH2
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = FTM0_CH6R
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = FTM0_CH7R
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = I2C0_SCL
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = I2C0_SDA
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = IRDAJ
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = IRDAR
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = IRDA_SEN
+    ecset_name = ANALOG
+}
+
+NET_ECSET_ENTRY {
+    net_name = IRDA_SEN_R
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = JM1
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = JM11
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = JM12
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = JM13
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = JM14
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = JM15
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = JM21
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = JM22
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = JM23
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = JM24
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = JM25
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = JM26
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = JM27
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = JM28
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = JM29
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = JM30
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = JM33
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = JM34
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = JM35
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = JM40
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = JM41
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = JM42
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = JM60_DN
+    ecset_name = DIFF-PAIR
+}
+
+NET_ECSET_ENTRY {
+    net_name = JM60_DP
+    ecset_name = DIFF-PAIR
+}
+
+NET_ECSET_ENTRY {
+    net_name = JM60_EXTAL
+    ecset_name = CLK
+}
+
+NET_ECSET_ENTRY {
+    net_name = JM60_IRQ_B
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = JM60_RESET_B
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = JM60_XTAL
+    ecset_name = CLK
+}
+
+NET_ECSET_ENTRY {
+    net_name = JM8
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = JM9
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = JM_BKGD
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = LED2R
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = LEDGR
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = LEDOR
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = LEDYR
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = N42835746
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = OSC_EN
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = P1V8
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = P3V3R
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = P5V_TRG_USB
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTA0
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTA1
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTA10
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTA11
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTA12
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTA13
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTA14
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTA15
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTA17
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTA18
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTA19
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTA2
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTA24
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTA25
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTA26
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTA27
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTA28
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTA29
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTA3
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTA4
+    ecset_name = ANALOG
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTA4R
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTA5
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTA6
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTA7
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTA8
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTA9
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTB0
+    ecset_name = ANALOG
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTB1
+    ecset_name = ANALOG
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTB10
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTB11
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTB16
+    ecset_name = ANALOG
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTB16R
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTB17
+    ecset_name = ANALOG
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTB18
+    ecset_name = ANALOG
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTB19
+    ecset_name = ANALOG
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTB2
+    ecset_name = ANALOG
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTB20
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTB21
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTB22
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTB23
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTB2R
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTB3
+    ecset_name = ANALOG
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTB3R
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTB4
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTB5
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTB6
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTB7
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTB8
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTB9
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTC0
+    ecset_name = ANALOG
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTC1
+    ecset_name = ANALOG
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTC10
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTC11
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTC12
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTC13
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTC14
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTC15
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTC16
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTC17
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTC18
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTC19
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTC2
+    ecset_name = ANALOG
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTC3
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTC4
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTC5
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTC6
+    ecset_name = ANALOG
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTC7
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTC8
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTC9
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTD0
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTD1
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTD10
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTD11
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTD12
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTD13
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTD14
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTD15
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTD2
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTD3
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTD4
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTD5
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTD6
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTD7
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTD8
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTD9
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTE0
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTE0_R
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTE1
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTE10
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTE11
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTE12
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTE2
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTE24
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTE25
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTE27
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTE28
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTE3
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTE4
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTE5
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTE6
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTE7
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTE8
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PTE9
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PU_PO_LED
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PU_ST
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = PU_TP
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = RESET_OUT_B
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = RSTR
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = RST_BD
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = RTC_WAKEUP
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = SDHC0_D2
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = TGT_PWR
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = USB-SHLD
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = USB0R_DN
+    ecset_name = DIFF-PAIR
+}
+
+NET_ECSET_ENTRY {
+    net_name = USB0R_DP
+    ecset_name = DIFF-PAIR
+}
+
+NET_ECSET_ENTRY {
+    net_name = USB0_DN
+    ecset_name = DIFF-PAIR
+}
+
+NET_ECSET_ENTRY {
+    net_name = USB0_DP
+    ecset_name = DIFF-PAIR
+}
+
+NET_ECSET_ENTRY {
+    net_name = USB0_VBUS
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = USB_DN
+    ecset_name = DIFF-PAIR
+}
+
+NET_ECSET_ENTRY {
+    net_name = USB_DP
+    ecset_name = DIFF-PAIR
+}
+
+NET_ECSET_ENTRY {
+    net_name = USB_VBUS
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = VBAT
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = VBATD
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = VCOIN
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = VOUT_3V3
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = VREFH
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = VREFL
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = VREF_OUT
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = VREGIN
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = VROR
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = VUSB3V3
+    ecset_name = DEFAULT
+}
+
+NET_ECSET_ENTRY {
+    net_name = XTAL32_RTC
+    ecset_name = CLK
+}
+

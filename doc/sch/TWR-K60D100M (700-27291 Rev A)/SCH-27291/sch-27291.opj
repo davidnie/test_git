@@ -1,0 +1,55 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\sch-27291.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify)
+    (Netlist_TAB "0")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File
+       "D:\PROJECTS\MSG\TWR-K60D100M\SCHEMATICS\REV B\SCH-27291.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0
+       "{Item}\t{Quantity}\t{AGILE_PN}\t{ASSY_OPT}\t{}\t{PRE_APN}\t{Reference}")
+    (BOM_Header "Item\tQuantity\tAgilePN\tASSY_OPT\tFIND#\tPRE_APN\tReference")
+    (BOM_Include_File
+       "D:\PROJECTS\MSG\TWR-K60D100M\SCHEMATICS\REV B\SCH-27291.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "FALSE")
+    (BOM_View_Output "FALSE"))
+  (Folder "Outputs"
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File ".\sch-27291.bom"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\sch-27291.dsn")
+      (Path "Design Resources" ".\sch-27291.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\sch-27291.dsn" "Design Cache")
+      (Path "Outputs")
+      (Select "Design Resources" ".\sch-27291.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 503 0 532"))
+      (Tab 0)))
+  (ISPCBBASICLICENSE "false")
+  (MPSSessionName "RZYB20"))
